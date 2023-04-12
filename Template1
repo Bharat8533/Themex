@@ -1,228 +1,502 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <link rel="apple-touch-icon" sizes="180x180" href="Icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="Icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="Icon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-    
-        <title>Theme X</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <title>My Resume | & Portfolio</title>
+
+    <style>
+        .font {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .bg {
+            background-color: #f7e8c6;
+        }
+    </style>
+
+</head>
+
 <body>
+
+
+    <div class="Hero relative  mt-0">
+
+        <!-- Nav Section  -->
+
+        <div class="icons flex flex-col items-center mt-48 gap-10 fixed left-7 ">
+
+            <div class="icon-1 text-purple-500">
+                <a href="#"> <i class="fa-solid fa-house fa-beat"></i></a>
+            </div>
+
+            <div class="icon-2 text-purple-500">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+
+            <div class="icon-3 text-purple-500">
+                <a href="#"><i class="fa-sharp fa-solid fa-file"></i></a>
+            </div>
+
+            <div class="icon-4 text-purple-500">
+                <a href="#"><i class="fa-solid fa-address-book"></i></a>
+            </div>
+
+
+            <div class="icon-5 text-purple-500">
+                <a href="#"><i class="fa-solid fa-rectangle-vertical-history"></i></a>
+
+            </div>
+
+
+        </div>
+
+        <!-- Hero Section -->
+
+        <div class="hero-section   w-[1200px]  m-auto flex justify-between items-center p-5 mt-4">
+
+            <div class="hero-text font flex flex-col gap-4">
+                <h1 class="text-5xl text-purple-500">Akash <span class="text-5xl text-red-500"> Varshney</span></h1>
+                <p class="text-lg">I am <span class=" text-purple-500">FullStack</span> <span
+                        class="text-red-500">Developer</span> </p>
+
+                <div class="icons flex gap-5">
+                    <a href="#"><i class="fa-brands fa-facebook fa-bounce fa-xl" style="color: #5a58d0;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl fa-bounce" style="color: #5a58d0;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-bounce fa-xl" style="color: #5a58d0;"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-bounce fa-xl" style="color: #5a58d0;"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images1/User Photo.png" alt="" class="w-96">
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- About Section -->
+
+    <div class="About w-auto m-auto mt-24 bg p-16 font">
+
+        <div class="about flex flex-col gap-10">
+            <h2 class="text-red-500 text-center text-5xl font font-bold">ABOUT</h2>
+
+            <h2 class="text-purple-800 text-center text-2xl font">UI/UX Designer & Web Developer.
+            </h2>
+
+        </div>
+
+
+        <div class="about1 w-[1200px] m-auto mt-24  flex justify-around">
+
+            <div class="image">
+                <img src="images1/student image.jpeg" alt="My image" class="w-60">
+            </div>
+
+
+            <div class="TEXT flex gap-28">
+
+                <div class="text1 flex flex-col gap-4 self-center">
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Birthday: </span> 2 July 2001
+                    </p>
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Website: </span>www.example.com
+                    </p>
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Phone: </span>+91123456789
+                    </p>
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">City: </span> Mathura
+                    </p>
+                </div>
+
+                <div class="text1 flex flex-col gap-4 self-center">
+
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Age:</span> 21
+                    </p>
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Degree:</span> www.example.com
+                    </p>
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Email</span> +91123456789
+                    </p>
+
+                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
+                        <span class="font-bold">Freelance:</span> avilable
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <div class="About-text mt-10 ml-8">
+
+            <p>The company itself is a very successful company. In the same way, someone will criticize less flight at
+                the time of the whole to assume the reason, but anyone, I will open the architect himself to discover
+                pleasures. Do it, anyone! The inventor not in the least repulses the exercise of choosing deserts, as it
+                were, the most deserving of the pain of the accusers. On what account are the pains of this, for nothing
+                and no thing can be asperated by those who find laborious pleasures out of pains? To be taken at the
+                right time, but with the desire of pleasure, that one of them hates others, wants to obtain the
+                advantages here, must be repelled by enduring the most pains, or open the flexibility to do what he can
+                achieve. The chosen one has the flexibility to choose whatever pleasures he wants.</p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Resume Section -->
+
+    <div class="resume-heading mt-40">
+        <h2 class="text-blue-500 text-5xl text-center font font-bold">Resume</h2>
+    </div>
+
+    <div class="resume w-[1200px]  mt-10 font m-auto relative p-5 flex gap-10">
+
+        <div class="resume-sec1 w-[580px] ">
+
+            <div class="subheading">
+
+                <h3 class="text-2xl font-bold">
+                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
+                    Summary
+                </h3>
+            </div>
+
+            <div class="name flex flex-col gap-4">
+                
+                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">James Bond</p>
+
+                <div class="about w-[400px] ml-20 font-semibold">
+                    <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
+                        developing user-centered digital/print marketing material from initial concept to final,
+                        polished deliverable.</p>
+                </div>
+
+                <div class="resume-inf0 ml-20 font-semibold">
+                    <ul>
+                        <li>  <i class="fa-solid fa-location-dot" style="color: #005eff;"></i> &nbsp; Portland par 127,Orlando, FL</li>
+                        <li>  <i class="fa-solid fa-phone" style="color: #005eff;"></i>       &nbsp;  (123) 456-7891</li>
+                        <li>  <i class="fa-solid fa-envelope" style="color: #005eff;"></i>    &nbsp;   alice.barkley@example.com</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+            <div class="subheading mt-10">
+
+                <h3 class="text-2xl font-bold">
+                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
+                    Education
+                </h3>
+            </div>
+
+
+
+            <div class="name flex flex-col gap-4 mt-3">
+                
+                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">Master in Computer Application</p>
+
+                <div class="about w-[400px] ml-20 font-semibold">
+                    <p> 2022 - 2024</p>
+                    <p class="mt-4">Rochester Institute of Technology, Rochester, NY</p>
+                    <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias doloribus error odit nemo voluptatibus rem neque, eveniet quisquam quasi?</p>
+                </div>
+
+              
+
+
+            </div>
+
+            <div class="name flex flex-col gap-4 mt-3">
+                
+                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">Bachelor in Computer Application</p>
+
+                <div class="about w-[400px] ml-20 font-semibold">
+                    <p> 2019 - 2022</p>
+                    <p class="mt-4">Rochester Institute of Technology, Rochester, NY</p>
+                    <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias doloribus error odit nemo voluptatibus rem neque, eveniet quisquam quasi?</p>
+                </div>
+
+              
+
+
+            </div>
+
+
+            <div class="subheading mt-10">
+
+                <h3 class="text-2xl font-bold">
+                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
+                    Skills
+                </h3>
+            </div>
+
+            <div class="skills flex flex-col ">
+
+                <div class="html ml-16 mt-5 flex gap-5">
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">HTML</p>
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">CSS</p>
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">JavaScript</p>
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">React Js</p>
+                </div>
+
+
+                <div class="html ml-16 mt-5 flex gap-5">
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Mongo DB</p>
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Express Js</p>
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Node Js</p>
+                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Type Script</p>
+                </div>
+
+                
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <!-- section 2  -->
+
+        <div class="resume-sec1 w-[580px] ">
+
+            <div class="subheading">
+
+                <h3 class="text-2xl font-bold">
+                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
+                    Professional Experience
+                </h3>
+            </div>
+
+            <div class="name flex flex-col gap-4">
+                
+                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">Senior Web Developer</p>
+
+                <div class="name flex flex-col gap-4 ">
+                
+                
+                    
+                    <div class="about w-[400px] ml-20 font-semibold">
+                        <p> 2019 - Present</p>
+                        <p class="mt-4">Experion NewYork , NY</p>
+                        
+                        <ul class="mt-5 flex flex-col gap-8">
+                            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
+                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                        </ul>
+
+
+                    </div>
+    
+                  
+    
+    
+                </div>
+
+
+            </div>
+
+
+            <p class="text-xl ml-20 text-blue-500 font-bold mt-10">Junior Web Developer</p>
+
+
+            <div class="about w-[400px] ml-20 font-semibold">
+                <p> 2018 - 2019</p>
+                <p class="mt-4">Experion NewYork , NY</p>
+                
+                <ul class="mt-5 flex flex-col gap-8">
+                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
+                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                </ul>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Projects Section  -->
+     
+    <div class="div bg-purple-300 mt-24 p-4">
+
+
+
+        <div class="Project-heading mt-40">
+            <h2 class="text-red-600 text-5xl text-center font font-bold">Projects</h2>
+        </div>
+    
+        <div class="projects w-[1300px] m-auto mt-24  font flex gap-10 p-5">
+    
+           
+    
+    
+            <div class="project1 ml-20 mt-5">
+        
+                <div class="subheading -ml-12 mb-5">
+    
+                    <h3 class="text-2xl font-bold font">
+                        <span class="text-blue"><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
+                        Project 1
+                    </h3>
+                </div>
+              
+               
+                <div class="project-title">
+                 
+                    <p class="font-bold"> Project Title :  <span class="font-semibold"> ThemeX</span> </p>
+                    <p class="font-bold"> Period :  <span class="font-semibold">March 2023 to April 2023 </span> </p>
+    
+                </div>
+    
+                <div class="project-Description mt-5 w-[500px]">
+    
+                    <h3 class="font-bold ">Description</h3>
+                    <p class="">This website helps you to download templates according to their needs. and inhance your web 
+                        projects. You will get all category of web templates here. Which is fully responsive for all devices 
+                        and accessible for all the users.
+                    </p>
+    
+                    <p class="font-bold mt-5"> Role :  <span class="font-semibold"> Front-End Developer</span> </p>
+    
+                     
+                </div>
+    
+    
+                <div class="project-responsibility mt-8">
+                    <h3 class="font-bold ">Responsibility</h3>
+    
+                    <div class="list mt-5">
+                        <ul class="flex flex-col gap-5">
+                            <li>Made intrective Ui & UX design.</li>
+                            <li>Implement design using web technologies.</li>
+                            <li>Make it responsive for all devices. Which is accessible for all the User.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+    
+                <div class="tools">
+                    <p class="font-bold mt-5"> Solution Enviroment :  <span class="font-semibold opacity-90">HTML , CSS , Tailwind Css , Javascript</span> </p>
+                    <p class="font-bold mt-5"> Tools :  <span class="font-semibold opacity-90">GitHub , Vs Code</span> </p>
+                </div>
+    
+    
+            </div>
+    
+    
+            <!-- Project 2 -->
+    
+            <div class="project1 ml-20 mt-5">
+    
+                <div class="subheading -ml-12 mb-5">
+    
+                    <h3 class="text-2xl font-bold font">
+                        <span class="text-blue"><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
+                        Project 2
+                    </h3>
+                </div>
+              
+               
+                <div class="project-title">
+                 
+                    <p class="font-bold"> Project Title :  <span class="font-semibold"> ThemeX</span> </p>
+                    <p class="font-bold"> Period :  <span class="font-semibold">March 2023 to April 2023 </span> </p>
+    
+                </div>
+    
+                <div class="project-Description mt-5 w-[500px]">
+    
+                    <h3 class="font-bold ">Description</h3>
+                    <p class="">This website helps you to download templates according to their needs. and inhance your web 
+                        projects. You will get all category of web templates here. Which is fully responsive for all devices 
+                        and accessible for all the users.
+                    </p>
+    
+                    <p class="font-bold mt-5"> Role :  <span class="font-semibold"> Front-End Developer</span> </p>
+    
+                     
+                </div>
+    
+    
+                <div class="project-responsibility mt-8">
+                    <h3 class="font-bold ">Responsibility</h3>
+    
+                    <div class="list mt-5">
+                        <ul class="flex flex-col gap-5">
+                            <li>Made intrective Ui & UX design.</li>
+                            <li>Implement design using web technologies.</li>
+                            <li>Make it responsive for all devices. Which is accessible for all the User.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+    
+                <div class="tools">
+                    <p class="font-bold mt-5"> Solution Enviroment :  <span class="font-semibold opacity-90">HTML , CSS , Tailwind Css , Javascript</span> </p>
+                    <p class="font-bold mt-5"> Tools :  <span class="font-semibold opacity-90">GitHub , Vs Code</span> </p>
+                </div>
+    
+    
+            </div>
+    
+        </div>
+
+
+
+    </div>
+    
+    
     
 
 
 
-    <div class="navbar flex">
-
-        <div class="logo">
-            <p>Theme<span style="Color :red">X</span></p>
-        </div>
-
-        <div class="navlinks flex">
-            <div class="links1"> <a href="index.html">Home</a> </div>
-            <!-- <div class="links2"> <a href="about.html">Teams</a> </div> -->
-            <div class="links3"> <a href="templates.html">Templates</a> </div>
-            <div class="links3"> <a href="about.html">About</a> </div>
-            <div class="links4"> <a href="contact.html">Contact</a> </div>
-        </div>
-
-         <!-- <div class="buttons flex">
-           <div class="btn1"><a href="#Login">Sign in</a></div>
-            <div class="btn2"><a href="#">Sign Up</a></div>
-        </div> -->
-
-    </div>
-
-
- <!-- Theme Section -->
-
-    <div class="Heading flex" id="themes">
-        <div class="Heading-t">
-            <h2>All <span style="color:red;">Templates</span></h2>
-        </div>
-        <div class="Heading-t1">
-            <p>We create clean, elegant and beautiful free website templates and themes </p>
-            <p>using HTML, CSS & JavaScript</p>
-        </div>
-    </div>
-
-    <div class="theme-1 flex">
-
-
-        <div class="card1 flex">
-
-            <div class="card-image">
-                <img src="images/Resume.png" alt="">
-            </div>
-
-            <div class="card-text flex">
-                <h3>Resume & Portfolio Website Template</h3>
-                <p>MyResume is a creative resume and portfolio template. It's best suited for digital
-                    professionals, designers, programmers, photographers, freelancers any other who wants to showcase
-                    his work online. MyResume is perfect to promote your work or services in easy and elegant way.. </p>
-
-                <div class="theme-buttons flex">
-                    <div class="bt">
-                        <a href="Templates/Portfoliyo/portfoliyo.html">Live Preview</a>
-                    </div>
-
-                    <div class="bt1">
-                        <a href="https://drive.google.com/file/d/1VGiMNImWkWRACN7Gc5hpJiWv9EZRHPpn/view?usp=share_link">Free Download</a>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-        <div class="card1 flex">
-
-            <div class="card-image">
-                <img src="images/business.png" alt="">
-            </div>
-
-            <div class="card-text flex">
-                <h3>Restaurant Website Template </h3>
-                <p>Yummy is a clean and lightweight restaurant website template It's designed specifically for
-                    restaurants, cafes, bakeries, bars, catering, or anyone working in the food industry and is an
-                    attractive and effective way to promote your food-related businesses.. </p>
-
-                <div class="theme-buttons flex">
-                    <div class="bt">
-                        <a href="Templates/Food/food.html">Live Preview</a>
-                    </div>
-
-                    <div class="bt1">
-                        <a href="#">Free Download</a>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-
-
-        <div class="card1 flex">
-
-            <div class="card-image">
-                <img src="images/blog.png" alt="">
-            </div>
-
-            <div class="card-text flex">
-                <h3>Blog Template </h3>
-                <p>ZenBlog is a lightweight and clean blog template. It's an elegant, modern, clean, and trendy
-                    blog-magazine template suitable for personal blogs, magazine websites, newspapers, or any
-                    specific
-                    category like fashion, travel, tour agencies, beauty, health, lifestyle, or any magazine sites..
-                </p>
-
-                <div class="theme-buttons flex">
-                    <div class="bt">
-                        <a href="Templates/Blog/blog.html">Live Preview</a>
-                    </div>
-
-                    <div class="bt1">
-                        <a href="#">Free Download</a>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-
-
-        <div class="card1 flex">
-
-            <div class="card-image">
-                <img src="images/medical.png" alt="">
-            </div>
-
-            <div class="card-text flex">
-                <h3>Medical Template </h3>
-                <p>Medilab is a clean, free, responsive template perfect for hospital, doctors, clinic, medical,
-                    health
-                    and more. This is a fully dynamic, well structured, easy to use and beautiful free HTML5
-                    template.
-                    This free website template developed and designed specially for Medical purposes. </p>
-
-
-                <div class="theme-buttons flex">
-                    <div class="bt">
-                        <a href="Templates/Medical/medical.html">Live Preview</a>
-                    </div>
-
-                    <div class="bt1">
-                        <a href="#">Free Download</a>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-
-    <!-- Footer Section  -->
-
-    <footer class="footer">
-        <div class="waves">
-          <div class="wave" id="wave1"></div>
-          <div class="wave" id="wave2"></div>
-          <div class="wave" id="wave3"></div>
-          <div class="wave" id="wave4"></div>
-        </div>
-        <ul class="social-icon">
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a></li>
-        </ul>
-        <ul class="menu">
-          <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
-          <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
-          <!-- <li class="menu__item"><a class="menu__link" href="#">Services</a></li> -->
-          <!-- <li class="menu__item"><a class="menu__link" href="#">Team</a></li> -->
-          <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
-    
-        </ul>
-        <p>&copy;2023 ThemeX | All Rights Reserved</p>
-      </footer>
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
+    <div class="div h-[1200px]"></div>
+    <script src="https://kit.fontawesome.com/8947742d61.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
