@@ -1,525 +1,197 @@
 <!doctype html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap"
-        rel="stylesheet">
-    <title>My Resume | & Portfolio</title>
-
-    <style>
-        .font {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .bg {
-            background-color: #f7e8c6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-
 <body>
 
-
-    <div class="Hero relative  mt-0">
-
-        <!-- Nav Section  -->
-
-        <div class="icons flex flex-col items-center mt-48 gap-10 fixed left-7 ">
-
-            <div class="icon-1 text-purple-500">
-                <a href="#"> <i class="fa-solid fa-house fa-beat"></i></a>
-            </div>
-
-            <div class="icon-2 text-purple-500">
-                <a href="#"><i class="fa-solid fa-user"></i></a>
-            </div>
-
-            <div class="icon-3 text-purple-500">
-                <a href="#"><i class="fa-sharp fa-solid fa-file"></i></a>
-            </div>
-
-            <div class="icon-4 text-purple-500">
-                <a href="#"><i class="fa-solid fa-address-book"></i></a>
-            </div>
-
-
-            <div class="icon-5 text-purple-500">
-                <a href="#"><i class="fa-solid fa-rectangle-vertical-history"></i></a>
-
-            </div>
-
-
-        </div>
-
-        <!-- Hero Section -->
-
-        <div class="hero-section   w-[1200px]  m-auto flex justify-between items-center p-5 mt-4">
-
-            <div class="hero-text font flex flex-col gap-4">
-                <h1 class="text-5xl text-purple-500">Bharat <span class="text-5xl text-red-500"> Sharma</span></h1>
-                <p class="text-lg">I am <span class=" text-purple-500">FullStack</span> <span
-                        class="text-red-500">Developer</span> </p>
-
-                <div class="icons flex gap-5">
-                    <a href="#"><i class="fa-brands fa-facebook fa-bounce fa-xl" style="color: #5a58d0;"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram fa-xl fa-bounce" style="color: #5a58d0;"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter fa-bounce fa-xl" style="color: #5a58d0;"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin fa-bounce fa-xl" style="color: #5a58d0;"></i></a>
-                </div>
-            </div>
-
-            <div class="hero-image">
-                <img src="images1/User Photo.png" alt="" class="w-96">
-            </div>
-
-
-        </div>
-
+  <section class="bg-blue-500 text-white py-20 bg-no-repeat">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-8">Welcome to my Portfolio</h1>
+      <p class="text-lg mb-12">I'm a web developer based in [Location]. I specialize in [Skills or Services]. Browse my projects and get in touch!</p>
+      <a href="#" class="bg-blue-700 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded">Contact Me</a>
     </div>
-
-
-    <!-- About Section -->
-
-    <div class="About w-auto m-auto mt-24 bg p-16 font">
-
-        <div class="about flex flex-col gap-10">
-            <h2 class="text-red-500 text-center text-5xl font font-bold">ABOUT</h2>
-
-            <h2 class="text-purple-800 text-center text-2xl font">UI/UX Designer & Web Developer.
-            </h2>
-
+  </section>
+  
+  <!-- Project Section -->
+  <section class="bg-white py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl md:text-6xl font-bold mb-8">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card 1 -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden">
+          <img src="./images1/web-programming.webp" alt="Project 1" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Web Development Project</h3>
+            <p class="text-gray-700 text-base">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            <!-- <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-12 rounded">View Project</a> -->
+          </div>
         </div>
-
-
-        <div class="about1 w-[1200px] m-auto mt-24  flex justify-around">
-
-            <div class="image">
-                <img src="images1/student image.jpeg" alt="My image" class="w-60">
-            </div>
-
-
-            <div class="TEXT flex gap-28">
-
-                <div class="text1 flex flex-col gap-4 self-center">
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Birthday: </span> 2 July 2001
-                    </p>
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Website: </span>www.example.com
-                    </p>
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Phone: </span>+91123456789
-                    </p>
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">City: </span> Mathura
-                    </p>
-                </div>
-
-                <div class="text1 flex flex-col gap-4 self-center">
-
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Age:</span> 21
-                    </p>
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Degree:</span> www.example.com
-                    </p>
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Email</span> +91123456789
-                    </p>
-
-                    <p> <i class="fa-solid fa-chevron-right fa-fade" style="color: #0e61f1;"></i>
-                        <span class="font-bold">Freelance:</span> avilable
-                    </p>
-
-                </div>
-
-
-            </div>
-
-
-
-
-
-
+        <!-- Project Card 2 -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden">
+          <img src="./images1/best-android-development.jpg" alt="Project 2" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Android Development Project</h3>
+            <p class="text-gray-700 text-base">Android development is a form of software engineering dedicated specifically to creating applications for devices that run on the Android platform.</p>
+            <!-- <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 rounded">View Project</a> -->
+          </div>
         </div>
-
-        <div class="About-text mt-10 ml-8">
-
-            <p>The company itself is a very successful company. In the same way, someone will criticize less flight at
-                the time of the whole to assume the reason, but anyone, I will open the architect himself to discover
-                pleasures. Do it, anyone! The inventor not in the least repulses the exercise of choosing deserts, as it
-                were, the most deserving of the pain of the accusers. On what account are the pains of this, for nothing
-                and no thing can be asperated by those who find laborious pleasures out of pains? To be taken at the
-                right time, but with the desire of pleasure, that one of them hates others, wants to obtain the
-                advantages here, must be repelled by enduring the most pains, or open the flexibility to do what he can
-                achieve. The chosen one has the flexibility to choose whatever pleasures he wants.</p>
-
+        <!-- Project Card 3 -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden">
+          <img src="./images1/Al-ML.jpg" alt="Project 3" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Al/Ml Development</h3>
+            <p class="text-gray-700 text-base">Automate your business to accelerate your organization's complete digital transformation with Artificial Intelligence(AI) and Machine Learning(ML) solutions.</p>
+            <!-- <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 rounded">View Project</a> -->
+          </div>
         </div>
-
-
-    </div>
-
-
-    <!-- Resume Section -->
-
-    <div class="resume-heading mt-40">
-        <h2 class="text-blue-500 text-5xl text-center font font-bold">Resume</h2>
-    </div>
-
-    <div class="resume w-[1200px]  mt-10 font m-auto relative p-5 flex gap-10">
-
-        <div class="resume-sec1 w-[580px] ">
-
-            <div class="subheading">
-
-                <h3 class="text-2xl font-bold">
-                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
-                    Summary
-                </h3>
+      </div>
+    </div
+  
+  
+  
+  
+    <section class="bg-white py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl md:text-6xl font-bold mb-8">Resume</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Left Column -->
+          <div class="md:col-span-1">
+            <h3 class="text-2xl font-bold mb-4">Experience</h3>
+            <!-- Experience Item 1 -->
+            <div class="mb-4">
+              <h4 class="text-lg font-bold">Web Developer at [Company Name]</h4>
+              <p class="text-gray-700">[Date Range]</p>
+              <ul class="list-disc list-inside mb-2">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Ut vehicula est at odio lacinia, sit amet bibendum quam tincidunt.</li>
+                <li>Maecenas tincidunt odio nec enim venenatis aliquet.</li>
+              </ul>
             </div>
-
-            <div class="name flex flex-col gap-4">
-                
-                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">James Bond</p>
-
-                <div class="about w-[400px] ml-20 font-semibold">
-                    <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
-                        developing user-centered digital/print marketing material from initial concept to final,
-                        polished deliverable.</p>
-                </div>
-
-                <div class="resume-inf0 ml-20 font-semibold">
-                    <ul>
-                        <li>  <i class="fa-solid fa-location-dot" style="color: #005eff;"></i> &nbsp; Portland par 127,Orlando, FL</li>
-                        <li>  <i class="fa-solid fa-phone" style="color: #005eff;"></i>       &nbsp;  (123) 456-7891</li>
-                        <li>  <i class="fa-solid fa-envelope" style="color: #005eff;"></i>    &nbsp;   alice.barkley@example.com</li>
-                    </ul>
-                </div>
-
-
+            <!-- Experience Item 2 -->
+            <div class="mb-4">
+              <h4 class="text-lg font-bold">Front-end Developer at [Company Name]</h4>
+              <p class="text-gray-700">[Date Range]</p>
+              <ul class="list-disc list-inside mb-2">
+                <li>Donec mollis justo et sapien auctor bibendum.</li>
+                <li>Fusce et risus non leo pulvinar lacinia.</li>
+                <li>Pellentesque blandit magna sed lacus facilisis mollis.</li>
+              </ul>
             </div>
-
-
-            <div class="subheading mt-10">
-
-                <h3 class="text-2xl font-bold">
-                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
-                    Education
-                </h3>
+          </div>
+          <!-- Right Column -->
+          <div class="md:col-span-1">
+            <h3 class="text-2xl font-bold mb-4">Education</h3>
+            <!-- Education Item 1 -->
+            <div class="mb-4">
+              <h4 class="text-lg font-bold">Bachelor's Degree in Computer Science</h4>
+              <p class="text-gray-700">[Institution Name], [Date Range]</p>
+              <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec nibh tellus. Vivamus vehicula laoreet odio, vel tempus purus posuere eu.</p>
             </div>
-
-
-
-            <div class="name flex flex-col gap-4 mt-3">
-                
-                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">Master in Computer Application</p>
-
-                <div class="about w-[400px] ml-20 font-semibold">
-                    <p> 2022 - 2024</p>
-                    <p class="mt-4">Rochester Institute of Technology, Rochester, NY</p>
-                    <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias doloribus error odit nemo voluptatibus rem neque, eveniet quisquam quasi?</p>
-                </div>
-
-              
-
-
+            <!-- Education Item 2 -->
+            <div class="mb-4">
+              <h4 class="text-lg font-bold">Web Development Bootcamp</h4>
+              <p class="text-gray-700">[Institution Name], [Date Range]</p>
+              <p class="mt-2">Duis interdum justo in libero molestie scelerisque. Aliquam sit amet enim vitae turpis euismod vulputate sed at nulla.</p>
             </div>
-
-            <div class="name flex flex-col gap-4 mt-3">
-                
-                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">Bachelor in Computer Application</p>
-
-                <div class="about w-[400px] ml-20 font-semibold">
-                    <p> 2019 - 2022</p>
-                    <p class="mt-4">Rochester Institute of Technology, Rochester, NY</p>
-                    <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias doloribus error odit nemo voluptatibus rem neque, eveniet quisquam quasi?</p>
-                </div>
-
-              
-
-
-            </div>
-
-
-            <div class="subheading mt-10">
-
-                <h3 class="text-2xl font-bold">
-                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
-                    Skills
-                </h3>
-            </div>
-
-            <div class="skills flex flex-col ">
-
-                <div class="html ml-16 mt-5 flex gap-5">
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">HTML</p>
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">CSS</p>
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">JavaScript</p>
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">React Js</p>
-                </div>
-
-
-                <div class="html ml-16 mt-5 flex gap-5">
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Mongo DB</p>
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Express Js</p>
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Node Js</p>
-                    <p class=" font-bold text-white bg-blue-500 inline p-2 rounded-lg">Type Script</p>
-                </div>
-
-                
-
-
-
-            </div>
-
-
-
-
+          </div>
         </div>
-
-        <!-- section 2  -->
-
-        <div class="resume-sec1 w-[580px] ">
-
-            <div class="subheading">
-
-                <h3 class="text-2xl font-bold">
-                    <span><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
-                    Professional Experience
-                </h3>
-            </div>
-
-            <div class="name flex flex-col gap-4">
-                
-                <p class="text-xl ml-20 text-blue-500 font-bold mt-3">Senior Web Developer</p>
-
-                <div class="name flex flex-col gap-4 ">
-                
-                
-                    
-                    <div class="about w-[400px] ml-20 font-semibold">
-                        <p> 2019 - Present</p>
-                        <p class="mt-4">Experion NewYork , NY</p>
-                        
-                        <ul class="mt-5 flex flex-col gap-8">
-                            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
-                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                        </ul>
-
-
-                    </div>
-    
-                  
-    
-    
-                </div>
-
-
-            </div>
-
-
-            <p class="text-xl ml-20 text-blue-500 font-bold mt-10">Junior Web Developer</p>
-
-
-            <div class="about w-[400px] ml-20 font-semibold">
-                <p> 2018 - 2019</p>
-                <p class="mt-4">Experion NewYork , NY</p>
-                
-                <ul class="mt-5 flex flex-col gap-8">
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                </ul>
-
-
-            </div>
-
-
-
-
-
+      </div>
+    </section>
+  
+  
+  
+    <section class="bg-white py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl md:text-6xl font-bold mb-8">About Me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <img src="./images1/Indian-Boy-College-Student-with-Book-Transparent-Image.png" alt="Profile Image" class="rounded-lg shadow-md h-[430px] mt-[-20px] ml-[150px]" >
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Hi, I'm <span class="text-blue-500">Bharat Sharma</span> </h3>
+            <p class="text-lg mb-6">I'm a [Your Profession or Role] based in [Location]. I have [Number of Years] of experience in [Skills or Services].</p>
+            <p class="text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus id mi accumsan, quis eleifend risus tincidunt. Nulla facilisi. Aenean vehicula ipsum sit amet eros aliquam, sit amet semper nunc congue.</p>
+            <p class="text-lg mb-6">In my free time, I enjoy [Hobbies or Interests].</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded">Download Resume</a>
+          </div>
         </div>
-
-    </div>
-
-
-
-    <!-- Projects Section  -->
-     
-    <div class="div bg-purple-300 mt-24 p-4">
-
-
-
-        <div class="Project-heading mt-40">
-            <h2 class="text-red-600 text-5xl text-center font font-bold">Projects</h2>
-        </div>
+      </div>
+    </section>
+  
     
-        <div class="projects w-[1300px] m-auto mt-24  font flex gap-10 p-5">
-    
-           
-    
-    
-            <div class="project1 ml-20 mt-5">
-        
-                <div class="subheading -ml-12 mb-5">
-    
-                    <h3 class="text-2xl font-bold font">
-                        <span class="text-blue"><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
-                        Project 1
-                    </h3>
-                </div>
-              
-               
-                <div class="project-title">
-                 
-                    <p class="font-bold"> Project Title :  <span class="font-semibold"> ThemeX</span> </p>
-                    <p class="font-bold"> Period :  <span class="font-semibold">March 2023 to April 2023 </span> </p>
-    
-                </div>
-    
-                <div class="project-Description mt-5 w-[500px]">
-    
-                    <h3 class="font-bold ">Description</h3>
-                    <p class="">This website helps you to download templates according to their needs. and inhance your web 
-                        projects. You will get all category of web templates here. Which is fully responsive for all devices 
-                        and accessible for all the users.
-                    </p>
-    
-                    <p class="font-bold mt-5"> Role :  <span class="font-semibold"> Front-End Developer</span> </p>
-    
-                     
-                </div>
-    
-    
-                <div class="project-responsibility mt-8">
-                    <h3 class="font-bold ">Responsibility</h3>
-    
-                    <div class="list mt-5">
-                        <ul class="flex flex-col gap-5">
-                            <li>Made intrective Ui & UX design.</li>
-                            <li>Implement design using web technologies.</li>
-                            <li>Make it responsive for all devices. Which is accessible for all the User.</li>
-                        </ul>
-                    </div>
-                </div>
-    
-    
-                <div class="tools">
-                    <p class="font-bold mt-5"> Solution Enviroment :  <span class="font-semibold opacity-90">HTML , CSS , Tailwind Css , Javascript</span> </p>
-                    <p class="font-bold mt-5"> Tools :  <span class="font-semibold opacity-90">GitHub , Vs Code</span> </p>
-                </div>
-    
-    
-            </div>
-    
-    
-            <!-- Project 2 -->
-    
-            <div class="project1 ml-20 mt-5">
-    
-                <div class="subheading -ml-12 mb-5">
-    
-                    <h3 class="text-2xl font-bold font">
-                        <span class="text-blue"><i class="fa-solid fa-circle fa-beat-fade fa-xs" style="color: #005eff;"></i></span>
-                        Project 2
-                    </h3>
-                </div>
-              
-               
-                <div class="project-title">
-                 
-                    <p class="font-bold"> Project Title :  <span class="font-semibold"> ThemeX</span> </p>
-                    <p class="font-bold"> Period :  <span class="font-semibold">March 2023 to April 2023 </span> </p>
-    
-                </div>
-    
-                <div class="project-Description mt-5 w-[500px]">
-    
-                    <h3 class="font-bold ">Description</h3>
-                    <p class="">This website helps you to download templates according to their needs. and inhance your web 
-                        projects. You will get all category of web templates here. Which is fully responsive for all devices 
-                        and accessible for all the users.
-                    </p>
-    
-                    <p class="font-bold mt-5"> Role :  <span class="font-semibold"> Front-End Developer</span> </p>
-    
-                     
-                </div>
-    
-    
-                <div class="project-responsibility mt-8">
-                    <h3 class="font-bold ">Responsibility</h3>
-    
-                    <div class="list mt-5">
-                        <ul class="flex flex-col gap-5">
-                            <li>Made intrective Ui & UX design.</li>
-                            <li>Implement design using web technologies.</li>
-                            <li>Make it responsive for all devices. Which is accessible for all the User.</li>
-                        </ul>
-                    </div>
-                </div>
-    
-    
-                <div class="tools">
-                    <p class="font-bold mt-5"> Solution Enviroment :  <span class="font-semibold opacity-90">HTML , CSS , Tailwind Css , Javascript</span> </p>
-                    <p class="font-bold mt-5"> Tools :  <span class="font-semibold opacity-90">GitHub , Vs Code</span> </p>
-                </div>
-    
-    
-            </div>
-    
-        </div>
-
-
-
-    </div>
-    
-
-    <!-- footer section -->
-
-    <section class=" bg-white dark:bg-gray-800">
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
-            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-            <form action="#" class="space-y-8">
-                <div>
-                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
-                </div>
-                <div>
-                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
-                </div>
-                <div class="sm:col-span-2">
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-                </div>
-                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+  
+  
+  
+    <section id="contact" class="py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl md:text-6xl font-bold mb-8">Get In Touch</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Contact Information</h3>
+            <p class="text-lg mb-6">You can contact me via the following channels:</p>
+            <ul class="list-disc pl-8 mb-8">
+              <li class="mb-2"><span class="text-gray-500 mr-2"><i class="fas fa-phone"></i></span>Phone: [Your Phone Number]</li>
+              <li class="mb-2"><span class="text-gray-500 mr-2"><i class="fas fa-envelope"></i></span>Email: <a href="mailto:[Your Email]">[Your Email]</a></li>
+              <li class="mb-2"><span class="text-gray-500 mr-2"><i class="fas fa-map-marker-alt"></i></span>Address: [Your Address]</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Contact Form</h3>
+            <form action="#" method="POST">
+              <div class="mb-4">
+                <label for="name" class="block text-lg font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full py-3 px-4 bg-gray-100 rounded-lg" required>
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-lg font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full py-3 px-4 bg-gray-100 rounded-lg" required>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block text-lg font-bold mb-2">Message</label>
+                <textarea id="message" name="message" class="w-full py-3 px-4 bg-gray-100 rounded-lg h-48" required></textarea>
+              </div>
+              <div class="text-right">
+                <button type="submit" class="bg-gray-900 text-white py-3 px-6 font-bold rounded-full hover:bg-gray-700">Send</button>
+              </div>
             </form>
+          </div>
         </div>
-      </section>
-    
-   
+      </div>
+    </section>
 
 
+<!-- Footer -->
+<footer class="bg-blue-800 text-white py-4">
+  <div class="container mx-auto px-4">
+    <p class="text-center">
+      &copy; 2023 <span class="text-red-700">Sharma's Restaurant</span> .
+      All rights reserved.
+    </p>
+  </div>
 
-    <div class="div h-[1200px]"></div>
-    <script src="https://kit.fontawesome.com/8947742d61.js" crossorigin="anonymous"></script>
+  <a href="#" class="flex w-60 space-x-5 mx-auto pt-6">
+    <i class="fas fa-utensils text-gray-600 mr-2"></i>
+    <i class="fas fa-insta text-red-500"></i>
+    <!-- a red map marker icon -->
+    <i class="fas fa-phone-alt text-green-500"></i>
+    <!-- a green phone icon -->
+    <i class="fas fa-envelope text-blue-500"></i>
+    <!-- a blue envelope icon -->
+    <i class="fab fa-twitter text-blue-400"></i>
+    <!-- a blue Twitter icon -->
+    <i class="fab fa-facebook-f text-blue-700"></i>
+    <!-- a dark blue Facebook icon -->
+    <span class="text-gray-800 font-medium hover:text-gray-900">Menu</span>
+  </a>
+</footer>
 </body>
-
 </html>
+
+
+
+
+
