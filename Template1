@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <section class="bg-blue-500 text-white py-20 bg-no-repeat">
+  <section class="bg-blue-500 text-white py-20 bg-no-repeat ">
     <div class="container mx-auto px-4">
       <h1 class="text-4xl md:text-6xl font-bold mb-8">Welcome to my Portfolio</h1>
       <p class="text-lg mb-12">I'm a web developer based in [Location]. I specialize in [Skills or Services]. Browse my projects and get in touch!</p>
